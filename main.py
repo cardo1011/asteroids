@@ -2,6 +2,7 @@ import pygame
 from constants import *
 from player import Player
 
+
 def main():
     print("Starting Asteroids!")
     print(f"Screen width: {SCREEN_WIDTH}")
@@ -15,13 +16,16 @@ def main():
 
     while True:
         screen.fill("black")
+        new_player.update(dt)
         new_player.draw(screen)
         pygame.display.flip()
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 return  
-        dt = timer.tick(60) // 1000
+        timer.tick(60)
+        dt = timer.tick(60) / 1000
+        
 
     
 
