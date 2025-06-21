@@ -42,7 +42,7 @@ def main():
             for shot in shots:
                 if ast.collision_check(shot):
                     ast.split()
-                    shot.split()
+                    shot.kill()
 
         updatable.update(dt)
         shots.update(dt)
