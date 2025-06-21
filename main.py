@@ -39,6 +39,11 @@ def main():
                 print("Game over!")
                 sys.exit(0)
 
+            for shot in shots:
+                if ast.collision_check(shot):
+                    ast.split()
+                    shot.split()
+
         updatable.update(dt)
         shots.update(dt)
 
