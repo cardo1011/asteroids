@@ -27,6 +27,7 @@ cd asteroids
 
 2. Run the game:
    _Activate your virtual environment if you installed that_
+- for me its: source venv/bin/activate
 
 - python main.py
 
