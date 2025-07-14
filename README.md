@@ -31,7 +31,10 @@ cd asteroids
 - python main.py
 
 =============================================================================
-
+## Controls for the game
+- WASD to move forward/backwards and to rotate the ship
+- Spacebar to shoot at asteroids
+- 
 ## Example of Gameplay
 
 <img width="1282" height="736" alt="Image" src="https://github.com/user-attachments/assets/ee728137-56bc-4a62-b7db-93a524caf12b" />
