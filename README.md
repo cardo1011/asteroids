@@ -1,4 +1,4 @@
-# asteroids
+# Asteroids
 
 A _simple_ command line game that was inspired by Asteroids
 
